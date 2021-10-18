@@ -1,0 +1,182 @@
+html, body {
+  font-family: 'Calif';
+}
+
+.title-article {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.text-article {
+  font-size: 1rem;
+}
+
+.texts-1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-family: 'Califb';
+}
+
+.texts-2 {
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  font-family: 'Califi';
+}
+
+.short-article {
+  font-size: 2rem;
+}
+
+.row .banner__banner {
+  position: relative;
+}
+
+.row .banner__logo {
+  position: absolute;
+  width: 200px;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media (max-width: 1200px) {
+  .row .banner__logo {
+    top: 5%;
+    width: 19%;
+  }
+}
+
+@media (max-width: 992px) {
+  .row .banner__logo {
+    top: 2%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .row .banner__logo {
+    top: 2%;
+    width: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .row .banner__logo {
+    top: 3%;
+    width: 15%;
+  }
+}
+
+.row .banner__scroll {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  bottom: 4%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media (max-width: 1200px) {
+  .row .banner__scroll {
+    bottom: 26%;
+    width: 9%;
+  }
+}
+
+@media (max-width: 992px) {
+  .row .banner__scroll {
+    bottom: 39%;
+    width: 9%;
+  }
+}
+
+@media (max-width: 768px) {
+  .row .banner__scroll {
+    bottom: 54%;
+    width: 10%;
+  }
+}
+
+@media (max-width: 576px) {
+  .row .banner__scroll {
+    bottom: 64%;
+    width: 10%;
+  }
+}
+
+.big-col-r {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.low-col {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.footer-texts-3 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-weight: 500;
+}
+
+.footer__texts-1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Califb';
+  padding-bottom: 5%;
+}
+
+.footer__texts-2 {
+  font-size: 1rem;
+  font-family: 'Califr';
+}
+
+.lowest-texts-3 {
+  padding: 5%;
+}
+
+@font-face {
+  font-family: Califb;
+  src: url(font/CALIFB.TTF);
+}
+
+@font-face {
+  font-family: Califi;
+  src: url(font/CALIFI.TTF);
+}
+
+@font-face {
+  font-family: Gotham-thin;
+  src: url(font/Gotham-Thin.otf);
+}
+
+@font-face {
+  font-family: Califr;
+  src: url(font/CALIFR.TTF);
+}
+
+.learn-more {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.learn-more:hover {
+  color: blue;
+}
+
+.navbar {
+  padding: 1%;
+}
+/*# sourceMappingURL=style.css.map */
